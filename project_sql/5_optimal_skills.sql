@@ -46,9 +46,7 @@ WHERE demand_count > 10
 ORDER BY
   	avg_salary DESC,
   demand_count DESC
-LIMIT 10 --Limit 25
-
-
+LIMIT 25;
 
 /*
 Another way to write this query:
@@ -76,6 +74,5 @@ ORDER BY
 	avg_salary DESC,
 	demand_count DESC
 LIMIT 25;
-
 
 */

@@ -1,4 +1,4 @@
-
+--What are the top paying skills?
 
 SELECT
     skills,
@@ -16,7 +16,6 @@ GROUP BY
 ORDER BY
     avg_salary DESC
 LIMIT 25;
-
 
 /*
 Results:
@@ -123,8 +122,4 @@ Results:
     "avg_salary": "153500"
   }
 ]
-
-
 */
-
-
